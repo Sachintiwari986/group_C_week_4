@@ -15,4 +15,14 @@ func main() {
 	fibSeries := fibonacci(num1)
 	fmt.Println("Fibonacci series:", fibSeries)
 
+	var num2 int
+	fmt.Print("Enter the number to check it is even or odd:")
+	fmt.Scan(&num2)
+	if isEven(num2) {
+		fmt.Println("The given number is even")
+	} else {
+		fmt.Println("The given number is odd")
+
+	}
+
 }
