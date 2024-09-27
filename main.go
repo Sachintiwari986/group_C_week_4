@@ -25,7 +25,14 @@ func main() {
 		fmt.Println("The given number is even")
 	} else {
 		fmt.Println("The given number is odd")
+	}
 
+	fmt.Print("Enter the number to check whether it is prime or not:")
+	fmt.Scan(&num)
+	if isPrime(num) {
+		fmt.Printf("The given number is a prime number")
+	} else {
+		fmt.Printf("The given number  is not a prime number")
 	}
 
 }
